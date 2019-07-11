@@ -109,7 +109,7 @@ CombatRepairTimeModifier=0.8,1,1.5,2
 PlayerWeaponReloadTime=0.8,1,1.5,2
 
 [Difficulty Settings Campaign]
-StartPointsModifier=0,8,1,0.8,0.6
+StartPointsModifier=0.8,1,0.8,0.6
 WinMissionModifier=0.75,1,0.75,0.5
 FailMissionModifier=0.75,1,0.75,0.5
 TonnageSunkModifier=0.75,1,0.75,0.5
