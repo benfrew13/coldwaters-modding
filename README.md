@@ -17,3 +17,5 @@ Rename the resulting `coldwaters-modding` folder to `override`.
 * Made the later Los Angeles class variants and the Seawolf available in the 1984 campaign.
 * WIP: Separate modified 1984 campaign.
     - Increased possible count of SSGNs and SSBNs in their respective missions.
+    - Changed campaign difficulty modifiers to use some Hard values on Easy
+    - 
