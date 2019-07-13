@@ -47,8 +47,10 @@ IconsInOccupiedZonesOnly=FALSE
 HoursToNextGeneralEvent=72
 HoursToNextGeneralEventRange=-24,48
 FirstOccupiedTerritory=WG1,WG2
-TerritoryTakebackThreshold=5
-NewFrontProbability=0.3
+// Lowered
+TerritoryTakebackThreshold=4
+// Increased
+NewFrontProbability=0.4
 
 [Aircraft]
 AircraftName=us_p3c_orion
@@ -288,7 +290,8 @@ SOSUSAlignment=FRIENDLY
 PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
-PlayerMissionFrequency=0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1
+// Decreased insertion and land strike probabilities
+PlayerMissionFrequency=0.1,0.1,0.1,0.07,0.07,0.13,0.13,0.1,0.1,0.1
 PlayerMissionThreshold=0,0,0,0.5,0.6,0,0,0,0,0
 
 CommandoLoadTime=120
