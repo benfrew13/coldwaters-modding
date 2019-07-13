@@ -109,10 +109,12 @@ CombatRepairTimeModifier=0.8,1,1.5,2
 PlayerWeaponReloadTime=0.8,1,1.5,2
 
 [Difficulty Settings Campaign]
-StartPointsModifier=0.8,1,0.8,0.6
+// easy campaign is my WIP custom Settings
+// mainly making it harder, but giving greater credit for tonnage
+StartPointsModifier=0.6,1,0.8,0.6
 WinMissionModifier=0.75,1,0.75,0.5
 FailMissionModifier=0.75,1,0.75,0.5
-TonnageSunkModifier=0.75,1,0.75,0.5
+TonnageSunkModifier=1,1,0.75,0.5
 TimeInPortModifier=0.8,1,1.2,1.5
 RestockTimeModifier=0.8,1,2,3
 RepairTimeModifier=0.8,1,2,3
