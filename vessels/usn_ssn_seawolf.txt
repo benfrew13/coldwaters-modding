@@ -43,7 +43,7 @@ TowedArrayPosition=-0.109,0.003,-0.779
 [Weapon Systems]
 TorpedoTypes=usn_mk48_adcap,usn_moss,usn_ugm84,usn_tasm,usn_tlam
 // Removed TLAMs from default loadout
-TorpedoNumbers=28,4,8,8,0
+TorpedoNumbers=28,4,12,4,0
 TorpedoTubes=8
 NumberOfWires=8
 TubeConfig=1,1,1,1,1,1,1,1
