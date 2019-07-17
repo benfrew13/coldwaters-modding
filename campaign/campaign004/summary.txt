@@ -1,0 +1,5 @@
+Image=campaign/images/pact naval 2
+PlayerVessels=usn_ssn_seawolf,usn_ssn_los_angeles_flt3,usn_ssn_los_angeles_flt2,usn_ssn_los_angeles
+[COMMANDER NAMES]
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

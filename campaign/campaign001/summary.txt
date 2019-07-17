@@ -1,6 +1,6 @@
 Image=campaign/images/pact naval 2
-// Added flt3 and seawolf, with flt3 as the default
-PlayerVessels=usn_ssn_los_angeles_flt3,usn_ssn_los_angeles_flt2,usn_ssn_los_angeles,usn_ssn_narwhal,usn_ssn_sturgeon,usn_ssn_permit,usn_ssn_skipjack,usn_ssn_seawolf
+// Added flt2/flt3
+PlayerVessels=usn_ssn_los_angeles,usn_ssn_narwhal,usn_ssn_sturgeon,usn_ssn_permit,usn_ssn_skipjack,usn_ssn_los_angeles_flt3,usn_ssn_los_angeles_flt2
 [COMMANDER NAMES]
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

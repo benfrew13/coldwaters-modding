@@ -59,15 +59,17 @@ NavigationSonarRange=4000
 MADDetectionRangeInYards=400
 NearbyVesselMinDistance=15000
 NearbyWeaponMinDistance=10000
-// Lowered distance
+// Lowered
 NearbyAircraftMinDistance=3500
 
 [Miscellaneous]
 //Flat % chance for whales
 WhaleProbability=0.1
 //Probability * pixel value of traffic map (0-1), rolls 2x
-NeutralVesselProbability1=0.5
-NeutralVesselProbability2=0.33
+// Lowered
+NeutralVesselProbability1=0.4
+// Lowered
+NeutralVesselProbability2=0.3
 
 [Environments]
 //First environment is used in Unit Reference for lighting
@@ -99,8 +101,8 @@ ForceCampaignMissionNumber=FALSE
 
 [Difficulty Settings]
 //Easy, Normal, Hard, Elite
-PlayerHullPoints=3,1.5,1,0.75
-EnemyHullPoints=0.75,1,1.125,1.25
+PlayerHullPoints=2,1.25,1,0.75
+EnemyHullPoints=1,1.2,1.3,1.4
 PlayerNoiseModifier=0.75,0.9,1,1.1
 EnemyNoiseModifier=1.3,1.1,1,0.9
 PlayerTMARate=1.4,1.2,1,0.85
@@ -109,12 +111,14 @@ CombatRepairTimeModifier=0.8,1,1.5,2
 PlayerWeaponReloadTime=0.8,1,1.5,2
 
 [Difficulty Settings Campaign]
-StartPointsModifier=1.2,1,0.8,0.6
-WinMissionModifier=1.2,1,0.75,0.5
-FailMissionModifier=1.2,1,0.75,0.5
-TonnageSunkModifier=1.2,1,0.75,0.5
-TimeInPortModifier=0.8,1,1.2,1.5
-RestockTimeModifier=0.8,1,2,3
-RepairTimeModifier=0.8,1,2,3
-RescueTimeModifier=0.8,1,2,3
-NumberOfASW=2,3,4,5
+// easy campaign is my WIP custom Settings
+// mainly making it harder, but giving greater credit for tonnage
+StartPointsModifier=0.6,0.6,0.6,0.6
+WinMissionModifier=0.75,0.75,0.75,0.5
+FailMissionModifier=0.75,0.75,0.75,0.5
+TonnageSunkModifier=1,1,0.75,0.5
+TimeInPortModifier=1,1,1.2,1.5
+RestockTimeModifier=1,1,1,1
+RepairTimeModifier=1,1,2,2
+RescueTimeModifier=1,1,2,3
+NumberOfASW=3,3,4,5
