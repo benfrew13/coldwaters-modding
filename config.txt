@@ -2,7 +2,7 @@
 MenuCameraRect=0,0,1,1
 MenuCameraOrthographicSize=DEFAULT
 MenuPixelDensity=2
-LoadVideos=TRUE
+LoadVideos=FALSE
 
 GenerateFullLog=TRUE
 
@@ -105,20 +105,18 @@ PlayerHullPoints=2,1.25,1,0.75
 EnemyHullPoints=1,1.2,1.3,1.4
 PlayerNoiseModifier=0.75,0.9,1,1.1
 EnemyNoiseModifier=1.3,1.1,1,0.9
-PlayerTMARate=1.4,1.2,1,0.85
+PlayerTMARate=1.5,1.3,1.1,0.85
 EnemyTMARate=0.85,1,1,1.2
 CombatRepairTimeModifier=0.8,1,1.5,2
 PlayerWeaponReloadTime=0.8,1,1.5,2
 
 [Difficulty Settings Campaign]
-// easy campaign is my WIP custom Settings
-// mainly making it harder, but giving greater credit for tonnage
 StartPointsModifier=0.6,0.6,0.6,0.6
 WinMissionModifier=0.75,0.75,0.75,0.5
 FailMissionModifier=0.75,0.75,0.75,0.5
 TonnageSunkModifier=1,1,0.75,0.5
 TimeInPortModifier=1,1,1.2,1.5
 RestockTimeModifier=1,1,1,1
-RepairTimeModifier=1,1,2,2
-RescueTimeModifier=1,1,2,3
+RepairTimeModifier=1,1,1,1
+RescueTimeModifier=1,1,2,2
 NumberOfASW=3,3,4,5
