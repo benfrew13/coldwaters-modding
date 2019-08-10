@@ -4,10 +4,10 @@ MapFromCampaign=North Atlantic
 MapElevationData=oparea_norwegiansea_bathymetry
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_mpk_grisha3|wp_skr_riga,wp_skr_krivak1|wp_mpk_grisha3,wp_skr_riga|wp_mpk_poti,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan|wp_fv_trawler,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,0-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_mpk_grisha3|wp_skr_riga,wp_skr_krivak1|wp_mpk_grisha3,wp_skr_riga|wp_mpk_poti,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan|wp_fv_trawler,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_ssbn_typhoon|wp_ssbn_delta4_wp_ssbn_delta3
 
 FormationCruiseSpeed=8
 
@@ -35,6 +35,9 @@ EnemyWaypoints=-550,820|950,810
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+//Lurking Boomer
+EnemyWaypoints=403,-64|165,35|-25,226|-128,425
 
 //MissionPosition=-185,-533
 //MissionPositionColor=LAND_STRIKE

@@ -5,10 +5,10 @@ MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_skr_krivak1,wp_skr_krivak1,wp_fv_trawler,wp_fv_trawler,wp_fv_trawler,wp_ss_tango|wp_ss_romeo,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_mpk_poti|wp_skr_riga,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_mpk_poti|wp_skr_riga
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,0-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_skr_krivak1,wp_skr_krivak1,wp_fv_trawler,wp_fv_trawler,wp_fv_trawler,wp_ss_tango|wp_ss_romeo,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_mpk_poti|wp_skr_riga,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_mpk_poti|wp_skr_riga,wp_ssbn_typhoon|wp_ssbn_delta4_wp_ssbn_delta3
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
@@ -37,6 +37,9 @@ EnemyWaypoints=700,10|-480,610
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+//Lurking Boomer
+EnemyWaypoints=403,-64|165,35|-25,226|-128,425
 
 MissionPosition=14,-279
 
